@@ -57,30 +57,64 @@ A mindful, data-driven app to help users take control of their screen time, brea
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/DibyadyutiDas/digital-detox.git
+   git clone https://github.com/yourusername/digital-detox.git
    cd digital-detox
+   ```
 
-# 🎯 Roadmap
-- ✅ Screen time tracker
-- ✅ Focus mode
-- 🔄 Emergency unlock reasoning (in progress)
-- 🔜 Detox challenges with leaderboard
-- 🔜 AI chatbot for habit coaching
-- 🔜 Community features
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   flutter pub get
+   ```
+
+3. Run the app:
+   ```bash
+   npm run start
+   # or
+   flutter run
+   ```
+
+---
+
+## 🎯 Roadmap
+
+- ✅ Screen time tracker  
+- ✅ Focus mode  
+- 🔄 Emergency unlock reasoning *(in progress)*  
+- 🔜 Detox challenges with leaderboard  
+- 🔜 AI chatbot for habit coaching  
+- 🔜 Community features  
+
+---
 
 ## 🧠 Inspiration
-- My own struggles with mobile addiction.
-- Friends who want to reduce screen time but fail due to lack of motivation.
-- The urgent need to reclaim focus, sleep, and peace of mind in the digital age.
+
+- My own struggles with mobile addiction.  
+- Friends who want to reduce screen time but fail due to lack of motivation.  
+- The urgent need to reclaim focus, sleep, and peace of mind in the digital age.  
+
+---
 
 ## 📜 License
-This project is open source under the MIT License.
+
+This project is open source under the [MIT License](LICENSE).
+
+---
 
 ## 🤝 Contributing
+
 PRs, ideas, feedback – all are welcome!  
 Open an issue or fork the repo and make your own changes.
 
+---
+
 ## 🙌 Acknowledgements
-- Google Digital Wellbeing
-- "Digital Minimalism" by Cal Newport
-- Every user who’s trying to live more intentionally ✨
+
+- [Google Digital Wellbeing](https://wellbeing.google/)  
+- *"Digital Minimalism"* by Cal Newport  
+- Every user who’s trying to live more intentionally ✨  
+
+---
+
+> _"Control your phone, before it controls you." – Digital Detox_
