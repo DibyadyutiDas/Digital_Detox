@@ -1,0 +1,26 @@
+name: 🧠 Emergency Unlock Reasoning
+description: Prompt users to write a reason before bypassing Focus Mode
+title: "[Feature] Emergency Unlock Reasoning"
+labels: [feature, behavior-change]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Feature: Emergency Unlock Reasoning
+
+        Before unlocking a restricted app, user must input a reason.
+  - type: textarea
+    id: reasoning
+    attributes:
+      label: Reason capture idea
+      description: What kind of prompt/message would you show to make users think?
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: Reason input dialog
+        - label: Save/log user response
+        - label: Allow or reject unlock based on settings
