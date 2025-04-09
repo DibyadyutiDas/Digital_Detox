@@ -59,3 +59,28 @@ A mindful, data-driven app to help users take control of their screen time, brea
    ```bash
    git clone https://github.com/DibyadyutiDas/digital-detox.git
    cd digital-detox
+
+# 🎯 Roadmap
+- ✅ Screen time tracker
+- ✅ Focus mode
+- 🔄 Emergency unlock reasoning (in progress)
+- 🔜 Detox challenges with leaderboard
+- 🔜 AI chatbot for habit coaching
+- 🔜 Community features
+
+## 🧠 Inspiration
+- My own struggles with mobile addiction.
+- Friends who want to reduce screen time but fail due to lack of motivation.
+- The urgent need to reclaim focus, sleep, and peace of mind in the digital age.
+
+## 📜 License
+This project is open source under the MIT License.
+
+## 🤝 Contributing
+PRs, ideas, feedback – all are welcome!  
+Open an issue or fork the repo and make your own changes.
+
+## 🙌 Acknowledgements
+- Google Digital Wellbeing
+- "Digital Minimalism" by Cal Newport
+- Every user who’s trying to live more intentionally ✨
