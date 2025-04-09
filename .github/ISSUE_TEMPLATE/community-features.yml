@@ -1,0 +1,26 @@
+name: 🌍 Community Features
+description: Build a social component to support digital wellbeing
+title: "[Feature] Community Features"
+labels: [feature, social]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Feature: Community Features
+
+        Let users share progress, challenges, or tips with a community of like-minded detoxers.
+  - type: textarea
+    id: ideas
+    attributes:
+      label: Social Ideas
+      description: How can users interact while maintaining focus & privacy?
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: Community feed or forum
+        - label: Shareable streaks or achievements
+        - label: Friend leaderboard or challenge groups
