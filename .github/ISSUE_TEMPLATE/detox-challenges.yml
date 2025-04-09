@@ -1,0 +1,27 @@
+name: 🎖️ Detox Challenges with Leaderboard
+description: Create gamified detox challenges with ranking
+title: "[Feature] Detox Challenges"
+labels: [feature, gamification]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Feature: Detox Challenges
+
+        Users can join 7-day, 14-day, or 21-day detox streaks. Reward them with badges. Add a leaderboard to compare progress.
+  - type: textarea
+    id: challenge-types
+    attributes:
+      label: Challenge Types
+      description: What kinds of challenges should be included?
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: Daily check-in system
+        - label: Streak tracking
+        - label: Badges and rewards
+        - label: Leaderboard system (global or private groups)
