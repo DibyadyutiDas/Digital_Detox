@@ -1,0 +1,31 @@
+name: 🤖 AI Chatbot for Habit Coaching
+description: Integrate a chatbot that provides digital wellbeing advice
+title: "[Feature] AI Habit Coach"
+labels: [feature, AI]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Feature: AI Habit Coach
+
+        An AI assistant that checks in, answers wellbeing questions, and offers tips to stay off the phone.
+  - type: textarea
+    id: ai-ideas
+    attributes:
+      label: Chatbot Features
+      description: What kind of responses and behavior should the AI have?
+  - type: input
+    id: ai-platform
+    attributes:
+      label: Platform / Model Suggestion
+      placeholder: ChatGPT API, Dialogflow, etc.
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: Chat interface
+        - label: AI response integration
+        - label: Personalized coaching tips
