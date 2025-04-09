@@ -1,0 +1,34 @@
+name: 📊 Screen Time Tracker
+description: Track and visualize phone/app usage
+title: "[Feature] Screen Time Tracker"
+labels: [feature, enhancement]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Feature: Screen Time Tracker
+
+        Track user's phone and app usage time with daily/weekly/monthly views.
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What do you want to achieve with this feature?
+    validations:
+      required: true
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Possible Implementation
+      description: How can we build this feature? Mention tools, libraries, or APIs.
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: Design UI
+        - label: Integrate usage tracking API
+        - label: Render data with charts
+        - label: Add daily, weekly, and monthly view options
