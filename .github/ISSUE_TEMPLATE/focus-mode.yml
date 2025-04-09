@@ -1,0 +1,32 @@
+name: 🔒 Focus Mode
+description: App-blocking feature to reduce distractions
+title: "[Feature] Focus Mode"
+labels: [feature, enhancement]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Feature: Focus Mode
+
+        Block distracting apps during custom or preset focus sessions (e.g., study, sleep).
+  - type: input
+    id: mode-name
+    attributes:
+      label: Suggested Focus Mode Name
+      placeholder: Study, Sleep, Deep Work, etc.
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Possible Implementation
+      description: Include expected UI and any permissions/API needed.
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: Focus mode toggle
+        - label: Schedule creation
+        - label: App-blocking enforcement
+        - label: Notification control
