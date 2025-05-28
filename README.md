@@ -57,7 +57,7 @@ A mindful, data-driven app to help users take control of their screen time, brea
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/digital-detox.git
+   git clone https://github.com/DibyadyutiDas/digital-detox.git
    cd digital-detox
    ```
 
